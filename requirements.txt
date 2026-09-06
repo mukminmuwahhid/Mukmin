@@ -1,0 +1,5 @@
+# consolidate.py uses only the Python standard library (csv, sqlite3, re,
+# datetime, argparse, dataclasses, logging), so there are no third-party
+# runtime dependencies. Listed here for completeness / dev tooling:
+
+pytest>=7.0  # optional, for running test_consolidate.py with `pytest`
